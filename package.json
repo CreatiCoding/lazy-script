@@ -1,0 +1,40 @@
+{
+  "name": "lazy-script",
+  "version": "1.0.0",
+  "description": "lazy-script for traditional script file",
+  "main": "lazy-script.js",
+  "scripts": {
+    "test": "jest ./test.js",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreatiCoding/lazy-script.git"
+  },
+  "keywords": [
+    "lazy",
+    "load",
+    "common-module",
+    "module"
+  ],
+  "author": "creaticoding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CreatiCoding/lazy-script/issues"
+  },
+  "homepage": "https://github.com/CreatiCoding/lazy-script#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-jest": "^25.1.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "window": "^4.2.6"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0"
+  }
+}
